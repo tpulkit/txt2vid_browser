@@ -4,13 +4,12 @@
 
 Setup:
 ```sh
-git clone https://github.com/tpulkit/txt2vid
-cd txt2vid
-git checkout arjun-browser
+git clone https://github.com/tpulkit/txt2vid_browser
+cd txt2vid_browser
 git submodule update --init --progress
 ```
 
-You should now have the `arjun-browser` branch checked out in your local git repo, along with the Wav2Lip repo as a submodule. To generate the ONNX model file you only need to install PyTorch:
+You should now have the `master` branch checked out in your local git repo, along with the Wav2Lip repo as a submodule. To generate the ONNX model file you only need to install PyTorch:
 ```sh
 pip3 install torch --extra-index-url https://download.pytorch.org/whl/cpu
 ```
